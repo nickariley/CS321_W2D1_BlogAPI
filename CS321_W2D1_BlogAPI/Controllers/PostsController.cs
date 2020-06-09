@@ -82,7 +82,7 @@ namespace CS321_W2D1_BlogAPI.Controllers
             post = _postService.Get(id);
 
             if (post == null) return NotFound();
-            //XTODO: use _postService to update post
+            //XTODO: use _postService to remove the post
 
             _postService.Remove(post);
 
